@@ -23,7 +23,7 @@ class Calculator extends React.Component {
     } else if (total !== null) {
       output.innerHTML = total;
     } else {
-      output.innerHTML = '';
+      output.innerHTML = '0';
     }
   };
 
@@ -35,9 +35,9 @@ class Calculator extends React.Component {
         </div>
 
         <div className="row">
-          <button onClick={this.onClickEvent} className="grey-btn" type="button">AC</button>
-          <button onClick={this.onClickEvent} value="AC" className="grey-btn" type="button">+/-</button>
-          <button onClick={this.onClickEvent} value="+/-" className="grey-btn" type="button">%</button>
+          <button onClick={this.onClickEvent} value="AC" className="grey-btn" type="button">AC</button>
+          <button onClick={this.onClickEvent} value="+/-" className="grey-btn" type="button">+/-</button>
+          <button onClick={this.onClickEvent} value="%" className="grey-btn" type="button">%</button>
           <button onClick={this.onClickEvent} value="÷" className="orange-btn" type="button">÷</button>
         </div>
         <div className="row">
