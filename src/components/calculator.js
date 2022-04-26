@@ -20,7 +20,9 @@ export default function Calculator() {
   };
 
   return (
-    <div className="calculator">
+    <div className='container'>
+      <h2 className='math'>Lets do some math!</h2>
+<div className="calculator">
       <div className="input-div">
         <h2 className="input">0</h2>
       </div>
@@ -55,6 +57,7 @@ export default function Calculator() {
         <button onClick={onClickEvent} value="=" className="orange-btn" type="button">=</button>
       </div>
 
+    </div>  
     </div>
 
   );
