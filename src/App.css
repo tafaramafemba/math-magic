@@ -1,12 +1,7 @@
-#root {
+.container {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
+  gap: 50px;
 }
 
 .grey-btn {
