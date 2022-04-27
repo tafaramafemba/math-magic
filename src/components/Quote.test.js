@@ -1,6 +1,10 @@
+import renderer from 'react-test-renderer'
+import Quote from "./Quote";
 
-describe('Quote', () => {
-    test('Placeholder', () => {
-    expect(1+1).toBe(2)
-    })
-  })
+describe(' Quote Component Rendering ', () => {
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(<Quote />)
+    expect(tree).toMatchSnapshot();
+  });
+})
