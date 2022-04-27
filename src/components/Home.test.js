@@ -1,10 +1,10 @@
 import renderer from 'react-test-renderer'
-import App from "./App";
+import Home from "./Home";
 
-describe(' App Component Rendering ', () => {
+describe(' Home Component Rendering ', () =>{
     it('renders correctly', () => {
         const tree = renderer
-            .create(<App />)
+            .create(<Home />)
         expect(tree).toMatchSnapshot();
     });
 })

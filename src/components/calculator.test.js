@@ -1,10 +1,10 @@
 import renderer from 'react-test-renderer'
-import App from "./App";
+import Calculator from "./calculator";
 
-describe(' App Component Rendering ', () => {
+describe(' Calculator Component Rendering ', () =>{
     it('renders correctly', () => {
         const tree = renderer
-            .create(<App />)
+            .create(<Calculator />)
         expect(tree).toMatchSnapshot();
     });
 })
