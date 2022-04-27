@@ -1,5 +1,11 @@
-describe('Nav', () => {
-    test('Placeholder', () => {
-    expect(1+1).toBe(2)
-    })
-  })
+import renderer from 'react-test-renderer'
+import Nav from "./Nav";
+import { BrowserRouter}  from 'react-router-dom';
+
+describe(' Nav Component Rendering ', () =>{
+    it('renders correctly', () => {
+        const tree = renderer
+            .create( <BrowserRouter><Nav /></BrowserRouter>)
+        expect(tree).toMatchSnapshot();
+    });
+})
