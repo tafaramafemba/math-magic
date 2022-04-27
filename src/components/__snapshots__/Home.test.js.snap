@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Home Component Rendering  renders correctly 1`] = `
+<div>
+  <h1>
+    Welcome to our Page
+  </h1>
+  <p>
+    Lorem ipsum odor amet, consectetuer adipiscing elit. Odio fringilla hendrerit est auctor laoreet varius cubilia hendrerit. Semper iaculis tempus habitant potenti porta interdum at. Tempus porta tortor risus efficitur augue; libero hac diam. Urna habitant bibendum tortor dis est aenean. Facilisi vehicula ex mus risus himenaeos natoque aliquam. Cursus nascetur neque himenaeos molestie posuere lacus sagittis torquent.
+  </p>
+  <p>
+    Dictum risus habitant phasellus purus turpis potenti sagittis luctus. Dis venenatis felis maximus nec netus efficitur etiam himenaeos. Lectus fringilla aenean fames justo mauris at est. Eros dolor fusce sapien; rhoncus velit varius. Consequat rhoncus imperdiet parturient aliquam mus orci quis augue. Porta sociosqu mollis egestas conubia donec sodales pretium felis. Dignissim risus rutrum hac tincidunt consequat. Neque convallis nascetur maecenas primis in. Rhoncus lectus sollicitudin sodales elit metus inceptos praesent nisl. Ante faucibus netus sollicitudin ornare integer feugiat risus parturient.
+  </p>
+</div>
+`;
