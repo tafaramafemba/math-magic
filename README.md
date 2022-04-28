@@ -25,6 +25,13 @@ In development environment use the following command:
 
 $ npm start
 
+## Live
+
+The website is deployed on Netlify and Heroku.
+
+* Netlify: [Netlify](https://626a6d509e960522d8b88852--fastidious-bonbon-e8db3d.netlify.app/)
+* Heroku: [Heroku](https://math-magicians2549.herokuapp.com/)
+
 ## Author
 * Github: [@tafaramafemba](https://github.com/tafaramafemba)
 * LinkedIn: [Tafara Mafemba](https://www.linkedin.com/in/tafara-mafemba-4b82a0156/)
